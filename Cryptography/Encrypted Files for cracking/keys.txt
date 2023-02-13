@@ -1,0 +1,25 @@
+Caesar Ciphers:
+1: 's' or 18  -  one fish two fish red fish blue fish                                              -  Dr. Seuss
+2: 'm' or 12  -  it is very important to know who you are. to make decisions. to show who you are  -  Malala Yousafzai
+3: 'h' or 7   -  optimism is the faith that leads to achievement                                   -  Helen Keller
+4: 'f' or 5   -  i attribute my success to this: i never gave or took any excuse                   -  Florence Nightingale
+5: 'g' or 6   -  i mean, it’s sort of exciting isn’t it? breaking the rules                        -  Hermione Granger
+6: 't' or 19  -  you will board my boat, sail across the sea, and restore the heart of te fiti     -  Moana
+7: 'b' or 1   -  you control your destiny, you don’t need magic to do it                           -  Merida
+8: 'd' or 3   -  just keep swimming just keep swimming                                             -  Dory
+9: 'o' or 14  -  some people are worth melting for                                                 -  Olaf
+10:'e' or 4   -  i never look back, it distracts from the now                                      -  Edna Mode
+11:'p' or 15  -  i am an example of what is possible when girls from the very beginning of their lives are loved and nurtured by people around them. i was surrounded by extraordinary women in my life who taught me about quiet strength and dignity  -  Michelle Obama
+12:'l' or 11  -  i think we need more love in the world. we need more kindness, more compassion, more joy, more laughter. i definitely want to contribute to that - Ellen Degeneres
+
+Vigenere Ciphers:
+1: 'meow'  -  i like learning. learning is beautiful  -  Natalie Portman
+2: 'book'  -  if you have good thoughts they will shine out of your face like sunbeams and you will always look lovely  -  Roald Dahl
+3: 'radio' -  we must have perseverance and above all confidence in ourselves  -  Marie Curie
+4: 'sun'   -  sciences provide an understanding of a universal experience, arts are a universal understanding of a personal experience  -  Mae Jemison
+5: 'lamp'  -  the ever impressive, the long contained, often imitated, but never duplicated Genie  -  Genie
+6: 'fly'   -  one can never have enough socks - Dumbledore
+7: 'up'    -  Adventure is out there. You just have to step out there to find it  -  Ellie (from Up)
+8: 'taylor'-  No matter what happens in life, be good to people. Being good to people is a wonderful legacy to leave behind.  -  Taylor Swift
+9: 'hunger'-  may the odds be ever in your favour  -  Hunger Games
+10:'space' -  when you're getting ready to launch into space, you're sitting on a big explosion waiting to happen  -  Sally Ride

@@ -1,0 +1,22 @@
+"""
+Fire roared through the bifurcated city of Ankh-Morpork. Where it licked the Wizards' Quarter it
+burned blue and green and was even laced with strange sparks of the eighth colour, octarine; where its
+outriders found their way into the vats and oil stores all along Merchants Street it progressed in a series
+of blazing fountains and explosions; in the Streets of the perfume blenders it burned with a sweetness;
+where it touched bundles of rare and dry herbs in the storerooms of the drugmasters it made men go mad
+and talk to God.
+ By now the whole of downtown Ankh-Morpork was alight, and the richer and worthier citizens of Ankh
+on the far bank were bravely responding to the situation by feverishly demolishing the bridges. But
+already the ships in the Morpork docks - laden with grain, cotton and timber, and coated with tar - were
+blazing merrily and, their moorings burnt to ashes, were breasting the river Ankh on the ebb tide, igniting
+riverside palaces and bowers as they drifted like drowning fireflies towards the sea. In any case, sparks
+were riding the breeze and touching down far across the river in hidden gardens and remote brickyards.
+The smoke from the merry burning rose miles high, in a wind-sculpted black column that could be seen
+across the whole of the Discworld. It was certainly impressive from the cool, dark hilltop a few leagues
+away, where two figures were watching with considerable interest.
+ The taller of the pair was chewing on a chicken leg and leaning on a sword that was only marginally
+shorter than the average man. If it wasn't for the air of wary intelligence about him it might have been
+supposed that he was a barbarian from the hubland wastes.
+ His partner was much shorter and wrapped from head to toe in a brown cloak. Later, when he has
+occasion to move, it will be seen that he moves lightly, cat-like.
+"""

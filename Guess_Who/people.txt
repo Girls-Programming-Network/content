@@ -1,0 +1,12 @@
+Aleisha,brown,black,hat
+Brittany,blue,red,glasses
+Charlie,green,brown,glasses
+Dave,blue,red,glasses
+Eve,green,brown,glasses
+Frankie,hazel,black,hat
+George,brown,black,glasses
+Hannah,brown,black,glasses
+Isla,brown,brown,none
+Jackie,hazel,blonde,hat
+Kevin,brown,black,hat
+Luka,blue,brown,none

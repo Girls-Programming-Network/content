@@ -1,0 +1,19 @@
+""" introduction
+ what this handbook is about
+ this handbook is about the skills and knowledge required to safely operate a forklift the handbook is for
+ either a light forklift with an empty weight of not more than 75 tonnes or a heavy forklift with an empty
+ weight is of more than 75 tonnes the training course for both types of forklifts is the same the licence
+ issued will depend on the forklift used for the licence tests at the completion of the course
+ why read this handbook
+ this handbook tells you about some of the legal requirements for drivers of light and heavy
+ mechanical equipment forklift in dubai along with important safety information background
+ material technical information and safe operating procedures
+ the knowledge test that you must pass to drive a forklift is based on the information in this
+ handbook you need to understand it to pass your test
+ how to use this handbook
+ the table of contents will show you where to find each section at the end of each section
+ there is a section called test yourself questions to help you check if you have understood
+ important issues
+ 
+ how you will learn
+ learning to operate a forklift is """ 

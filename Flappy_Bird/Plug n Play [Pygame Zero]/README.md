@@ -10,7 +10,7 @@ This package also included all the images needed for making Flappy Bird and a fl
 
 There is an instruction sheet that you can print out to have on the day "Pygame Zero Plug n Play Setup Instructions.pdf"
 
-1. Put a copy of the Flappy Bird Python.zip file on each computer being used for the workshop. 
+1. Put a copy of the Flappy Bird Python.zip file on each computer being used for the workshop. You can do this from a USB or download by going to this address: https://gpn.org.au/flappy-py *(the download will start automatically)*.
 
 2. Unzip the file. 
 

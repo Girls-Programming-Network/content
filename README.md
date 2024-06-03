@@ -7,7 +7,5 @@ Each projects comes equiped with content (designed with high school students in 
 *We are still in the process of transitioning our content to this new repo, some pieces may not have migrated for each project yet.*
 
 ## Licences
-Girls' Programming Network licences it's material so that you can use it, share it, remix it. Feel free to sell our code but not our content. 
+Girls' Programming Network licences it's material so that you can use it, share it, remix it, but not sell.
 Our content is licenced under the [CC BY-NC-SA License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-Our software is under the GNU GPL licence for you to do with as you wish. 
-

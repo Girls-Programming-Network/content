@@ -34,6 +34,7 @@ The workspace contains two folders, where:
         - 'common-passwords.txt'- list of most common passwords 
         - 'accounts.txt'- list of account names with their hashed passwords
         - 'salty-accounts.txt'- list of account names with their salted + hashed passwords 
+        - 'account_info.txt' - workbook 1, extension 6. A list of usernames, hashed passwords, common passwords for you to test
 
 - `code_output`: contains the output of the code aka the matched usernames and passwords 
     Contains: 

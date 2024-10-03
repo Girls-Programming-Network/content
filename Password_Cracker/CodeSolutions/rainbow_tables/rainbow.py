@@ -1,4 +1,4 @@
-#Password cracker workbook 2 solution
+#Password cracker workbook P solution
 
 ### Creating a rainbow table,
 ### i.e. a database of common passwords and their hash values

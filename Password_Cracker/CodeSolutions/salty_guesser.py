@@ -1,4 +1,4 @@
-#Password cracker workbook 3 part 3-5 solution 
+#Password cracker workbook N part 3-5 solution 
 
 #Finding which salt was used to hash the salted passwords
 import hashlib

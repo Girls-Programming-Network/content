@@ -1,11 +1,11 @@
-#Password cracker workbook 3 part 6 solution
+#Password cracker workbook N part 6 solution
 
 # Finding our salted password with our rainbow table
 # this hashes the common passwords, and compares it to the salted-hashed values attached to account names
 # it then returns any matches 
 import hashlib
 
-salt = "7549" #this is the salt found from workbook 3 part 3-5
+salt = "7549" #this is the salt found from workbook N part 3-5
 
 rainbow = {}
 #Note: You may have to adjust filepath 

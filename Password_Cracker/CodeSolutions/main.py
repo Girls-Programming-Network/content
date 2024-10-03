@@ -1,9 +1,10 @@
-#Password cracker workbook 1 solution 
+#Password cracker workbook G solution 
 
 #Hashing a password and comparing it to the input
 import hashlib
 
 #The following section gets deleted by the students - it finds the hashed version of the passphrase
+
 ##correct = "The ship sails at midnight"
 ##correct_encoded = correct.encode()
 ##print(type(correct_encoded))

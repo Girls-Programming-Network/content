@@ -1,4 +1,4 @@
-#Password cracker workbook 3 part 1-2
+#Password cracker workbook N part 1-2
 
 #Salting our own password
 import hashlib

@@ -51,7 +51,7 @@ jobs:
 
             body += `### Before merging, please confirm:\n`;
             body += `- [ ] The rename/deletion is genuinely necessary\n`;
-            body += `- [ ] All links on the GPN squarespace site have been updated\n`;
+            body += `- [ ] All links on the GPN squarespace site have been updated\n\n`;
             body += `If this was accidental, please revert the file name changes before merging.`;
 
             github.rest.issues.createComment({

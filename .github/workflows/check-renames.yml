@@ -1,0 +1,62 @@
+name: Check for renamed or deleted files
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  pull-requests: write
+  contents: read
+
+jobs:
+  check-renames:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect renamed or deleted files
+        id: detect
+        run: |
+          # Get list of renamed (R) and deleted (D) files vs base branch
+          RENAMED=$(git diff --name-status --diff-filter=R origin/${{ github.base_ref }}...HEAD -- '*.pdf' | awk '{print $2 " → " $3}')
+          DELETED=$(git diff --name-status --diff-filter=D origin/${{ github.base_ref }}...HEAD -- '*.pdf' | awk '{print $2}')
+
+          echo "renamed<<EOF" >> $GITHUB_OUTPUT
+          echo "$RENAMED" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+          echo "deleted<<EOF" >> $GITHUB_OUTPUT
+          echo "$DELETED" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Post warning comment
+        if: steps.detect.outputs.renamed != '' || steps.detect.outputs.deleted != ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const renamed = `${{ steps.detect.outputs.renamed }}`.trim();
+            const deleted = `${{ steps.detect.outputs.deleted }}`.trim();
+
+            let body = `## ⚠️ Warning: PDF files have been renamed or deleted\n\n`;
+            body += `Renaming or deleting PDF files **breaks existing links** on the website.\n\n`;
+
+            if (renamed) {
+              body += `### Renamed files\n\`\`\`\n${renamed}\n\`\`\`\n\n`;
+            }
+            if (deleted) {
+              body += `### Deleted files\n\`\`\`\n${deleted}\n\`\`\`\n\n`;
+            }
+
+            body += `### Before merging, please confirm:\n`;
+            body += `- [ ] The rename/deletion is genuinely necessary\n`;
+            body += `- [ ] All links on the GPN squarespace site have been updated\n`;
+            body += `If this was accidental, please revert the file name changes before merging.`;
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });
